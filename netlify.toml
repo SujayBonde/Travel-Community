@@ -5,3 +5,6 @@
 
 [dev]
   framework = "#custom"
+
+[functions]
+  directory = "server/netlify/functions"

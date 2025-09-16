@@ -1,0 +1,26 @@
+.hero {
+  background-image: url('./herobg2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  z-index: 0;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Black overlay */
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black */
+  z-index: -1;
+}

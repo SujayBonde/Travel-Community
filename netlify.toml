@@ -1,8 +1,8 @@
 [build]
-  base = "server"
-  command = "npm install && cd client && npm install && npm run build"
-  publish = "client/build"
-  functions = "netlify/functions"
+  base = "server/client"
+  publish = "server/client/build"
+  functions = "server/server/netlify/functions"
+  command = "npm install && npm run build"
 
 [dev]
   framework = "#custom"

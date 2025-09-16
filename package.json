@@ -20,8 +20,11 @@
   },
   "homepage": "https://github.com/SujayBonde/Travel-Community#readme",
   "dependencies": {
-    "@netlify/functions": "^4.2.5",
-    "express": "^5.1.0",
-    "serverless-http": "^4.0.0"
+    "express": "^4.x",
+    "serverless-http": "^2.x",
+    "@netlify/functions": "^1.x",
+    "mongoose": "^7.x",
+    "cors": "^2.x",
+    "dotenv": "^16.x"
   }
 }

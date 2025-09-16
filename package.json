@@ -4,10 +4,9 @@
   "description": "Welcome to **TravelConnect** — a vibrant platform where travelers share their bus journey stories, ask questions, and connect with fellow explorers. Built with ❤️ by **Sujay**, this full-stack web app combines a sleek React frontend with a robust Express + MongoDB backend.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run build",
-    "start": "node index.js"
-  },
+  "start": "npm start",
+  "build": "npm install"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SujayBonde/Travel-Community.git"

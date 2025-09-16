@@ -3,6 +3,10 @@
   publish   = "client/build"
   functions = "netlify/functions"
 
+[build.environment]
+  NODE_VERSION = "20"
+
+
 [dev]
   # Optional: if you want Netlify CLI to proxy your functions locally
   framework = "#custom"

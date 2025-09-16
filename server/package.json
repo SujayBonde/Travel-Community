@@ -10,6 +10,7 @@
     "cors": "^*.*.*",
     "dotenv": "^*.*.*",
     "express": "^*.*.*",
-    "mongoose": "^*.*.*"
+    "mongoose": "^*.*.*",
+    "multer": "^2.0.2"
   }
 }

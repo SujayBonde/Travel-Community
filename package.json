@@ -1,0 +1,27 @@
+{
+  "name": "travel-community",
+  "version": "1.0.0",
+  "description": "Welcome to **TravelConnect** — a vibrant platform where travelers share their bus journey stories, ask questions, and connect with fellow explorers. Built with ❤️ by **Sujay**, this full-stack web app combines a sleek React frontend with a robust Express + MongoDB backend.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SujayBonde/Travel-Community.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SujayBonde/Travel-Community/issues"
+  },
+  "homepage": "https://github.com/SujayBonde/Travel-Community#readme",
+  "dependencies": {
+    "@netlify/functions": "^4.2.5",
+    "express": "^5.1.0",
+    "serverless-http": "^4.0.0"
+  }
+}

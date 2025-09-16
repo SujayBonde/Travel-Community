@@ -1,0 +1,8 @@
+[build]
+  command   = "npm run build"
+  publish   = "client/build"
+  functions = "netlify/functions"
+
+[dev]
+  # Optional: if you want Netlify CLI to proxy your functions locally
+  framework = "#custom"
